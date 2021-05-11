@@ -1,0 +1,109 @@
+body{
+    background-color: grey;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    margin-top: 20px;
+    background-color: white;
+    height: 50px;
+    padding-top: 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+nav a{
+    margin-right: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
+img{
+    width: 100%;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+form{
+    padding-bottom: 20px;
+}
+
+p.imgtitle{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th{
+    padding: 10px;
+    color: orangered;
+    border: 3px solid black;
+}
+
+tr{
+    color: pink;
+}
+
+td{
+    border: 2px solid white;
+    padding: 14px;
+}
+input[type=text]{
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+input[type=email]{
+    padding: 10px;
+    /* margin: 5px; */
+    margin-top: 5px;
+    margin-left: 36px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+input[type=checkbox]{
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+input[type=submit]{
+    margin-left: 80px;
+    padding: 8px;
+    border: 2px solid blue;
+    color: black;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+footer{
+    border-top: 2px solid white;
+    padding-bottom: 20px;
+    text-align: center;
+    color: orange;
+    font-size: 18px;
+}
+
+footer a{
+    text-decoration: none;
+    font-size: 14px;
+}
+
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
