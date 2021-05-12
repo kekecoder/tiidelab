@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 100vh;
+    max-height: 100vh;
+}
+
+.form-body{
+    width: 80%;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: grey;
+    border: 2px solid orangered;
+    box-shadow: 4px 3px 4px #000;
+    border-radius: 5px;
+}
+
+input[type=text]{
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+input[type=email]{
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    margin-bottom: 5px;
+}
+input[type=date]{
+    padding: 7px;
+    color: white;
+    border: 2px solid white;
+    margin-bottom: 5px;
+}
+input[type=number]{
+    padding: 10px;
+    color: white;
+    border: 2px solid white;
+    margin-bottom: 5px;
+}
+input[type=submit]{
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid orange;
+    color: yellow;
+    background-color: pink;
+    border-radius: 5px;
+}
+input[type=submit]:hover{
+    color: white;
+    background-color: orangered;
+}
+label{
+    font-size: 12px;
+    color: purple;
+}
